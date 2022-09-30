@@ -1,0 +1,38 @@
+#calc {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(151, 33, 33);
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.inputs {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#months,
+#amount,
+#interest_rate {
+    width: 175px;
+    height: 20px;
+    align-items: center;
+}
+
+#interest_rate {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+input {
+    font-size: 3rem;
+}
